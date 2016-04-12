@@ -1,0 +1,17 @@
+<h1>hello Dishy</h1>
+<div id=id="creation">
+<a  href="/dishes/new">Create New</a>
+</div>
+<% @dishes.each do |dish| %>
+
+  <div id="list_item"><p>
+    <a href="/food_info/<%= dish['id']%>">
+    <%= dish['name'] %>
+    </a>
+  </p>
+    <a href="/food_info/<%= dish['id']%>">
+    <img src="<%= dish['image_url'] %>" alt="">
+  </a>
+</div>
+
+<% end %>

@@ -1,0 +1,23 @@
+img {
+  max-width: 300px;
+}
+
+body {
+background-color: lightblue;
+font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+
+}
+
+p{
+  display: inline-block;
+}
+
+creation {
+ width: 100%;
+ border-bottom: 10px;
+ display:block;
+}
+
+list_item {
+  border: black 2px solid;
+}
